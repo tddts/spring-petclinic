@@ -111,7 +111,7 @@
   </dependencies>
 
   <scm>
-   <connection>scm:git:https://github.com/tddts/spring-petclinic.git</connection>
+   <connection>scm:git:git@github.com:tddts/spring-petclinic.git</connection>
   </scm>
     
   <build>
