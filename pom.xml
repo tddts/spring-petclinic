@@ -224,7 +224,7 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5.3</version>
         <configuration>
-          <tagNameFormat>v@{CURRENT_RELEASE_VERSION}</tagNameFormat>
+          <tagNameFormat>v${current.release.version}</tagNameFormat>
         </configuration>
       </plugin>
         
