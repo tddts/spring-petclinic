@@ -11,6 +11,10 @@
     <version>2.1.0.BUILD-SNAPSHOT</version>
   </parent>
   <name>petclinic</name>
+    
+  <scm>
+   <connection>scm:git:git@github.com:tddts/spring-petclinic.git</connection>
+  </scm>
 
   <properties>
 
