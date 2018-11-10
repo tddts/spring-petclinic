@@ -14,7 +14,7 @@
     
   <scm>
    <connection>scm:git:git@github.com:tddts/spring-petclinic.git</connection>
-   <developerConnectionUrl>scm:git:git@github.com:tddts/spring-petclinic.git</developerConnectionUrl>
+   <developerConnection>scm:git:git@github.com:tddts/spring-petclinic.git</developerConnection>
   </scm>
 
   <properties>
