@@ -110,6 +110,10 @@
     </dependency>
   </dependencies>
 
+  <scm>
+   <connection>scm:git:https://github.com/tddts/spring-petclinic.git</connection>
+  </scm>
+    
   <build>
     <plugins>
       <plugin>
@@ -214,6 +218,16 @@
           </dependency>
         </dependencies>
       </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+        <configuration>
+          <tagNameFormat>v@{CURRENT_RELEASE_VERSION}</tagNameFormat>
+        </configuration>
+      </plugin>
+        
     </plugins>
   </build>
 
