@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>2.1.1.BUILD</version>
+  <version>2.1.0.BUILD-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -107,11 +107,6 @@
       <optional>true</optional>
     </dependency>
   </dependencies>
-
-  <scm>
-   <connection>scm:git:git@github.com:tddts/spring-petclinic.git</connection>
-    <tag>v1.0.1</tag>
-  </scm>
     
   <build>
     <plugins>
@@ -216,15 +211,6 @@
             <version>${mockito.version}</version>
           </dependency>
         </dependencies>
-      </plugin>
-        
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.3</version>
-        <configuration>
-          <tagNameFormat>v${current.release.version}</tagNameFormat>
-        </configuration>
       </plugin>
         
     </plugins>
