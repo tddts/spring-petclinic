@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>860.1</version>
+  <version>861.1</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
